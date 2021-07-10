@@ -5,7 +5,7 @@ Start up on boot plugin
 
 ```bash
 #from master
-cordova plugin add https://github.com/tsubik/cordova-plugin-start-on-boot.git
+cordova plugin add https://github.com/lazydan/cordova-plugin-start-on-boot.git
 ```
 
 ## Removing the Plugin from your project
