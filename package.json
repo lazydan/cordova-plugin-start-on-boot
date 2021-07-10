@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-start-on-boot",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Starting application on device boot completed.",
   "cordova": {
     "id": "cordova-plugin-start-on-boot",
