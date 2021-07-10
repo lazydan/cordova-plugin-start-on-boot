@@ -19,9 +19,6 @@ public class StartOnBootReceiver extends BroadcastReceiver {
             String mainActivityName = getMainActivityName(context);
             Intent serviceIntent = new Intent(context, Class.forName(mainActivityName));
             serviceIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-            //You can use the following example to read the extra:
-            //https://gist.github.com/alixti/2c4a336e0745ddcbe4fab9a5a38cc97a
-            serviceIntent.putExtra("StartedOnBoot", "1");
             Log.d(TAG, "Starting " + mainActivityName + " on boot");
             context.startActivity(serviceIntent);
         } catch(Exception ex) {
